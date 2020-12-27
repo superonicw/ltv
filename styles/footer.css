@@ -1,0 +1,33 @@
+.footer {
+  padding: 14px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.footer-buttons {
+  display: flex;
+  align-items: center;
+  color: #004A80;
+}
+
+.footer-buttons button {
+  font-size: 14px;
+  color: #004A80;
+  letter-spacing: 0;
+  margin: 0 5px;
+}
+
+.footer-buttons button:first-of-type {
+  margin-left: 0;
+}
+
+.footer-buttons button:last-of-type {
+  margin-right: 0;
+}
