@@ -21,6 +21,8 @@
 }
 
 .search-section-notice {
+  display: flex;
+  align-items: center;
   font-size: 16px;
   color: var(--yellow);
   text-align: left;
@@ -44,10 +46,15 @@
   flex: 1;
 }
 
+.search-form {
+  display: flex;
+  width: 100%;
+}
+
 .invalid {
   box-shadow: inset 0 -1px 4px 0 rgba(0, 0, 0, 0.2);
   border: 3px solid var(--red) !important;
-  border-radius: 3px;
+  border-radius: 3px 3px 3px 0 !important;
 }
 
 .search-section button {
@@ -59,7 +66,7 @@
   font-size: 16px;
   line-height: 18px;
   color: var(--white);
-  padding: 4px 12px;
+  padding: 1px 12px 4px 12px;
   background: var(--red);
   border-radius: 0 0 3px 3px;
   width: fit-content;
@@ -69,6 +76,7 @@
 /* Result section */
 .result-section {
   padding: 30px 0 60px;
+  background: var(--light-white);
 }
 
 .result-section h2 {
@@ -192,5 +200,91 @@
 
   .person-caption {
     font-size: 20px;
+  }
+
+  .search-section .error-message {
+    font-size: 14px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .search-section {
+    padding: 10px 0 17px;
+  }
+
+  .search-section h2 {
+    font-size: 38px;
+  }
+
+  .search-section h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .search-section form,
+  .search-section input,
+  .search-section button {
+    display: block;
+    width: 100%;
+  }
+
+  .search-section form {
+    padding: 20px 0 18px;
+  }
+
+  .search-form {
+    display: block;
+    padding-left: 10px;
+  }
+
+  .search-section input,
+  .search-section button {
+    height: 50px;
+  }
+
+  .search-section input {
+    font-size: 20px;
+  }
+
+  .search-section button {
+    margin: 10px 0 0 0;
+  }
+
+  .search-section-notice {
+    align-items: flex-start;
+    padding-left: 10px;
+  }
+
+  .search-section-not-found {
+    padding: 40px 0;
+  }
+
+  .search-section-not-found h3 {
+    text-align: center;
+  }
+
+  .result-section {
+    padding: 30px 0;
+  }
+
+  .result-section h2 {
+    font-size: 38px;
+  }
+
+  .result-section p {
+    font-size: 18px;
+  }
+
+  .no-result-section {
+    padding: 92px 0 127px;
+  }
+
+  .result-item {
+    padding: 25px 15px;
+  }
+
+  .result-item-circle {
+    display: none;
   }
 }

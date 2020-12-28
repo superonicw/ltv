@@ -34,3 +34,16 @@
     height: 63px;
   }
 }
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .primary-button {
+    font-size: 22px;
+    letter-spacing: 0.93px;
+  }
+
+  .circle-item {
+    width: 50.4px;
+    height: 50.4px;
+  }
+}

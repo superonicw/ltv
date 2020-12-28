@@ -71,3 +71,19 @@
     line-height: 24px;
   }
 }
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .content-header h2 {
+    font-size: 38px;
+  }
+
+  .content-header p {
+    font-size: 18px;
+    padding: 15px 0 5px;
+  }
+
+  .content-item {
+    padding-top: 15px;
+  }
+}
