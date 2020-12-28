@@ -1,0 +1,131 @@
+/* Search section */
+.search-section {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 30px 0 65px;
+  font-weight: bold;
+}
+
+.search-section-not-found {
+  padding-top: 95px;
+}
+
+.search-section h2 {
+  font-size: 52px;
+}
+
+.search-section h3 {
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 15px;
+}
+
+.search-section-notice {
+  font-size: 16px;
+  color: var(--yellow);
+  text-align: left;
+}
+
+.search-section-notice img {
+  margin-right: 15px;
+}
+
+.search-section form {
+  padding: 29px 0 30px;
+}
+
+.search-section input {
+  margin-right: 20px;
+  background: var(--white);
+  border-radius: 3px;
+  outline: none;
+  border-width: 0;
+  height: 70px;
+  padding: 0 12px;
+  flex: 1;
+}
+
+.invalid {
+  box-shadow: inset 0 -1px 4px 0 rgba(0, 0, 0, 0.2);
+  border: 3px solid var(--red) !important;
+  border-radius: 3px;
+}
+
+.search-section button {
+  margin-left: 20px;
+  height: 70px;
+}
+
+.search-section .error-message {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--white);
+  padding: 4px 12px;
+  background: var(--red);
+  border-radius: 0 0 3px 3px;
+  width: fit-content;
+}
+
+/* Result section */
+.result-section {
+  padding: 30px 0 60px;
+}
+
+.result-section h2 {
+  font-weight: bold;
+  font-size: 52px;
+  color: var(--blue);
+}
+
+.result-section p {
+  font-size: 24px;
+  color: var(--black);
+  line-height: 32px;
+  padding-top: 15px;
+}
+
+/* Result item */
+.result-item {
+  margin-top: 30px;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  background: var(--white);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+.result-item-circle img {
+  width: 40px;
+  height: 46px;
+}
+
+.person {
+  font-size: 18px;
+  color: var(--black);
+  line-height: 26px;
+}
+
+.person-name {
+  font-weight: bold;
+  font-size: 32px;
+  padding-bottom: 5px;
+  color: var(--blue);
+}
+
+.person-caption {
+  padding: 20px 0 5px;
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--blue);
+}
+
+.person-phone {
+  display: block;
+  color: var(--blue);
+}
+
+/* No result section */
+.no-result-section {
+  padding: 160px 0 178px;
+}

@@ -1,0 +1,22 @@
+.primary-button {
+  font-size: 24px;
+  color: var(--blue);
+  letter-spacing: 1px;
+  text-align: center;
+  background-image: linear-gradient(225deg, #f2da56 0%, #f6bc25 100%);
+  box-shadow: 0 3px 0 0 #a6953b, inset 0 1px 0 0 #ffffff;
+  border-radius: 6px;
+  width: 180px;
+}
+
+.circle-item {
+  width: 90px;
+  height: 90px;
+  border-radius: 90px;
+  margin-right: 20px;
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+}

@@ -1,0 +1,7 @@
+.header {
+  padding: 20px 0;
+}
+
+.header button:not(:last-of-type) {
+  margin-right: 25px;
+}

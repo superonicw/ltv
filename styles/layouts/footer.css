@@ -1,0 +1,25 @@
+.footer {
+  padding: 14px 0;
+}
+
+.footer-content {
+  max-width: 960px;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--light-grey);
+}
+
+.footer button {
+  font-size: 14px;
+  color: var(--blue);
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.footer button:first-of-type {
+  margin-left: 0;
+}
+
+.footer button:last-of-type {
+  margin-right: 0;
+}

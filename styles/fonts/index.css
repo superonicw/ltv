@@ -1,0 +1,13 @@
+@font-face {
+  font-weight: normal;
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  src: url('/assets/fonts/HelveticaNeue.ttf') format('ttf');
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: 'HelveticaNeue';
+  font-style: normal;
+  src: url('/assets/fonts/HelveticaNeue-Bold.ttf') format('ttf');
+}

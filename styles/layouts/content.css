@@ -1,0 +1,41 @@
+.content {
+  padding: 40px 0 60px;
+  background-image: linear-gradient(0deg, #e6e6e6 0%, #ffffff 100%);
+}
+
+.content-header h2 {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 70px;
+}
+
+.content-header p {
+  font-size: 22px;
+  line-height: 30px;
+  padding: 20px 0 10px;
+}
+
+.content-item {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.content-item-number {
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--yellow);
+}
+
+.content-item-title {
+  font-weight: bold;
+  font-size: 22px;
+  color: var(--blue);
+}
+
+.content-item-description {
+  font-size: 18px;
+  line-height: 26px;
+  padding-right: 30px;
+  color: var(--black);
+}
