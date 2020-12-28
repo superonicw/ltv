@@ -23,3 +23,10 @@
 .footer button:last-of-type {
   margin-right: 0;
 }
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .footer-content {
+    max-width: 575px;
+  }
+}

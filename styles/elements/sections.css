@@ -2,7 +2,7 @@
 .search-section {
   background-color: var(--blue);
   color: var(--white);
-  padding: 30px 0 65px;
+  padding: 30px 0 95px;
   font-weight: bold;
 }
 
@@ -35,7 +35,6 @@
 }
 
 .search-section input {
-  margin-right: 20px;
   background: var(--white);
   border-radius: 3px;
   outline: none;
@@ -64,6 +63,7 @@
   background: var(--red);
   border-radius: 0 0 3px 3px;
   width: fit-content;
+  font-weight: normal;
 }
 
 /* Result section */
@@ -127,5 +127,70 @@
 
 /* No result section */
 .no-result-section {
-  padding: 160px 0 178px;
+  padding: 160px 0 187px;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .search-section {
+    padding-bottom: 60px;
+  }
+
+  .search-section h2 {
+    font-size: 48px;
+  }
+
+  .search-section h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .search-section-not-found {
+    padding: 63px 0 106px;
+  }
+
+  .no-result-section p {
+    text-align: center !important;
+  }
+
+  .result-section {
+    padding: 30px 0 40px;
+  }
+
+  .result-section h2 {
+    font-size: 48px;
+  }
+
+  .result-section p {
+    font-size: 20px;
+    color: var(--grey);
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .result-item {
+    padding: 30px;
+  }
+
+  .result-item-circle {
+    margin-right: 10px;
+  }
+
+  .result-item-circle img {
+    width: 28px;
+    height: 32.2px;
+  }
+
+  .person {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .person-name {
+    padding-bottom: 7px;
+  }
+
+  .person-caption {
+    font-size: 20px;
+  }
 }
