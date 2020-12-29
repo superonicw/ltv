@@ -4,6 +4,7 @@
   color: var(--white);
   padding: 30px 0 95px;
   font-weight: bold;
+  text-align: center;
 }
 
 .search-section-not-found {
@@ -32,10 +33,6 @@
   margin-right: 15px;
 }
 
-.search-section form {
-  padding: 29px 0 30px;
-}
-
 .search-section input {
   background: var(--white);
   border-radius: 3px;
@@ -47,6 +44,7 @@
 }
 
 .search-form {
+  padding: 29px 0 30px;
   display: flex;
   width: 100%;
 }
@@ -77,6 +75,7 @@
 .result-section {
   padding: 30px 0 60px;
   background: var(--light-white);
+  text-align: center;
 }
 
 .result-section h2 {
@@ -136,6 +135,25 @@
 /* No result section */
 .no-result-section {
   padding: 160px 0 187px;
+}
+
+/* Loading section */
+.loading-section {
+  padding: 300px 0 381px;
+  text-align: center;
+  background-color: var(--light-white);
+}
+
+.loading-section img {
+  width: 154px;
+  height: 154px;
+  margin-bottom: 28px;
+}
+
+.loading-section h3 {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--blue);
 }
 
 /* Tablet */
@@ -205,6 +223,10 @@
   .search-section .error-message {
     font-size: 14px;
   }
+
+  .loading-section {
+    padding: 100px 0 137px;
+  }
 }
 
 /* Mobile */
@@ -222,32 +244,29 @@
     line-height: 22px;
   }
 
-  .search-section form,
-  .search-section input,
-  .search-section button {
+  .search-form,
+  .search-form input,
+  .search-form button {
     display: block;
     width: 100%;
   }
 
-  .search-section form {
-    padding: 20px 0 18px;
-  }
-
   .search-form {
+    padding: 20px 0 18px;
     display: block;
     padding-left: 10px;
   }
 
-  .search-section input,
-  .search-section button {
+  .search-form input,
+  .search-form button {
     height: 50px;
   }
 
-  .search-section input {
+  .search-form input {
     font-size: 20px;
   }
 
-  .search-section button {
+  .search-form button {
     margin: 10px 0 0 0;
   }
 
@@ -286,5 +305,15 @@
 
   .result-item-circle {
     display: none;
+  }
+
+  .loading-section {
+    padding: 60px 0 85px;
+  }
+
+  .loading-section img {
+    width: 124px;
+    height: 124px;
+    margin-bottom: 16px;
   }
 }

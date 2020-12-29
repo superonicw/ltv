@@ -30,7 +30,7 @@
       </div>
     </header>
 
-    <section class="search-section text-center">
+    <section class="search-section">
       <div class="container container-narrow">
         <div class="row">
           <div class="col-12">
@@ -38,20 +38,25 @@
             <h3>
               <span class="color-yellow">Start Here</span> - Look up the owner's name, photos and online profiles. See what you find!
             </h3>
-            <form>
-              <div class="search-form">
-                <div class="flex-1 text-left">
-                  <input type="text" placeholder="EMAIL" class="w-100" />
-                </div>
-                <button type="submit" class="primary-button">GO!</button>
+
+            <div class="search-form">
+              <div class="flex-1 text-left">
+                <input type="text" placeholder="EMAIL" class="w-100 search-input" />
               </div>
-            </form>
+              <button class="primary-button search-button">GO!</button>
+            </div>
+
             <div class="search-section-notice">
               <img src="assets/images/icon-lock.svg" /> Enter Any Email Address. They won't be notified.
             </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="loading-section d-none">
+      <img src="assets/images/loading.gif" />
+      <h3>Please wait a moment...</h3>
     </section>
 
     <section class="content">
@@ -163,7 +168,7 @@
       </div>
     </section>
 
-    <section class="result-section no-result-section text-center">
+    <section class="result-section no-result-section d-none">
       <div class="container container-narrow">
         <div class="row">
           <div class="col-12">
@@ -174,7 +179,7 @@
       </div>
     </section>
 
-    <section class="result-section text-center">
+    <section class="result-section d-none">
       <div class="container container-narrow">
         <div class="row">
           <div class="col-12">
@@ -232,7 +237,7 @@
       </div>
     </section>
 
-    <section class="search-section search-section-not-found text-center">
+    <section class="search-section search-section-not-found d-none">
       <div class="container container-narrow">
         <div class="row">
           <div class="col-12">
@@ -240,15 +245,14 @@
             <h3>
               <span class="color-yellow">Try again</span> - Make a new search
             </h3>
-            <form>
-              <div class="search-form">
-                <div class="flex-1 text-left">
-                  <input type="text" placeholder="EMAIL" class="w-100 invalid" />
-                  <div class="error-message">Please add a valid email address</div>
-                </div>
-                <button type="submit" class="primary-button">GO!</button>
+
+            <div class="search-form">
+              <div class="flex-1 text-left">
+                <input type="text" placeholder="EMAIL" class="w-100 search-input" />
               </div>
-            </form>
+              <button class="primary-button search-button">GO!</button>
+            </div>
+
             <div class="search-section-notice">
               <img src="assets/images/icon-lock.svg" /> Enter Any Email Address. They won't be notified.
             </div>
